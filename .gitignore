@@ -16,3 +16,11 @@ backend/.mvn/
 backend/.idea/
 backend/*.log
 backend/.env
+
+# Backend - Spring Boot / Maven
+backend/target/
+backend/.idea/
+backend/.mvn/
+backend/mvnw*
+backend/*.log
+backend/.env
