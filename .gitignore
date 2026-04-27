@@ -1,14 +1,18 @@
+# Root
+.DS_Store
+.env
+*.log
+
 # Frontend
 frontend/node_modules/
 frontend/dist/
 frontend/build/
+frontend/.env*
+frontend/.vite/
 
-# Backend (add your backend ignores here)
+# Backend (add these now, even if backend not added yet)
 backend/target/
+backend/.mvn/
 backend/.idea/
 backend/*.log
 backend/.env
-
-# General
-.DS_Store
-*.env
